@@ -2,6 +2,7 @@
     height: 700px;
     background-color: #E9DED4;
     position: relative;
+    overflow: hidden;
 }
 
 .header__logo {
@@ -38,14 +39,12 @@
     text-align: center;
     padding-bottom: 39px;
 
-    line-height: 130%;
-    
+    line-height: 130%; 
 }
 
 .header__row {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .header__btn {
@@ -62,7 +61,6 @@
     font-weight: 500;
     line-height: 130%;
     display: inline-block;
-    
 }
 
 .header__btn-support {
@@ -105,15 +103,17 @@ a, a:link, a:visited {
 
     transform: rotate(15deg);
     
-    right: 220px;
+    right: 14.2%;
 }
+
 .header__background-city {
-    width: 1624px;
+    min-width: 1624px;
     height: 557px;
     bottom: -23px;
     left: 22px;
     right: 0;
     margin: 0 auto;
+
 
 }
 .header__old-effect {
@@ -135,77 +135,67 @@ a, a:link, a:visited {
     right: 231px;
 }
 
-/* .header::after {
-    content: "";
-    position: absolute;
-    background-image: url(/img/header/background-city.png);
+/* Медиа запросы */
 
-    width: 1604px;
-    height: 535px;
-    bottom: 0;
+@media (max-width: 375px) {
+    .header {
+        height: 774px;
+    }
 
-    left: 50%;
-    transform: translateX(-50%);
+    .header__logo {
+        padding-top: 20px;
+    }
 
-    overflow: hidden;
+    .header__content {
+        width: 335px;
+        padding-top: 90px;
+    }
+
+    .header__title {
+        font-size: 36px;
+    }
+
+    .header__subtitle {
+        text-align: start;
+        padding-bottom: 32px;
+    }
+
+    .header__row {
+        justify-content: center;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .header__btn {
+        width: 335px;
+        height: 47px;
+    }
+
+    .btn__text {
+        width: 249px;
+    }
+
+    .header__btn-more {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: none;
+    }
+
+    .header__yellow-circle {
+        width: 297px;
+        height: 297px;
+        top: 414px;
     
+        transform: rotate(15deg);
+        
+        right: 13.2%;
+    }
+
+    .header__background-city {
+        min-width: 885px;
+        height: 314px;
+        bottom: -23px;
+        left: -403px;
+        margin: 0 auto;
+    }
+
 }
-
-.header::before {
-    content: "";
-    position: absolute;
-    background-image: url(/img/header/yellow-circle.png);
-
-    width: 660px;
-    height: 660px;
-    top: -44px;
-
-    transform: rotate(15deg); 
-    right: 259px;
-} */
-
-
-/* .header__background {
-    /* width: 100%; */
-    
-    /* background-image: url(/img/header/background-city.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}*/
-
-
-/* .header__old-effect {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-
-    z-index: 1;
-    mix-blend-mode: color-burn;
-
-}
-
-.header__knight {
-    position: absolute;
-    z-index: 2;
-    
-    width: 154px;
-    height: 244px;
-
-    bottom: -38px;
-
-    transform: translateX(509%) rotate(-10.5deg);
-}
-
-.header__pawn {
-    position: absolute;
-    z-index: 2;
-    width: 82px;
-    height: 122px;
-
-    bottom: 20px;
-    right: 0;
-
-    transform: translateX(-330%); 
-}  */
