@@ -1,0 +1,23 @@
+.callout {
+    height: 347px;
+    padding-top: 80px;
+}
+
+.callout__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 250px;
+}
+
+.callout__content {
+    margin-right: 30px;
+    max-width: 764px;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.callout__img {
+    height: 250px;
+    width: 394px;
+}

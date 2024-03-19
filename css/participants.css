@@ -1,0 +1,120 @@
+.participants {
+    height: calc(661px + 65px);
+}
+
+.participants__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.participants__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+    width: 151px;
+    height: 44px;
+    padding-top: 17px;
+}
+
+.participants__button-prev {
+    padding-right: 4px;
+}
+
+
+
+.participants__button-next {
+    padding-left: 4px;
+}
+
+.participants__button-prev, 
+.participants__button-next {
+    background-color: #313131;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.participants__button-prev:hover, 
+.participants__button-next:hover {
+    background-color: #FBCE51;
+    transition: 0.2s;
+}
+
+.participants__slider {
+    width: calc(394px * 3 + 20px * 2);
+    height: 462px;
+
+    margin: 59px auto;
+    overflow: hidden;
+}
+
+.participants__slider-wrapper {
+    left: 0;
+    height: 462px;
+    width: 2484px;
+    display: flex;
+    position: relative;
+    transition: all ease 2s;
+}
+
+.card {
+    font-family: 'Golos Text', sans-serif;
+    width: 394px;
+    height: 462px;
+    text-align: center;
+
+    
+}
+
+.card-Capablanca, 
+.card-Lasker {
+    margin-right: 20px;
+}
+
+.card-Nimzovich,
+.card-Reti {
+    margin-right: 20px;
+}
+
+/* .card-Bender {
+    padding-right: 0px;
+} */
+
+
+.card__image {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+}
+.card__content {
+    margin-top: 28px;
+}
+.card__content-title {
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.card__content-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(49, 49, 49, 0.7);
+}
+
+.participants__btn-card {
+    width: 113px;
+    height: 35px;
+    border: 1px solid #3057A2;
+    border-radius: 62px;
+    color: #3057A2;
+    font-weight: 500;
+    font-size: 16px;
+
+    margin-top: 20px;
+}
+
+.participants__btn-card:hover {
+    background-color: #3057A2;
+    color: #FFFFFF;
+    transition: 0.2s;
+}

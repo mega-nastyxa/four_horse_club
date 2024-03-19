@@ -1,0 +1,41 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap');
+
+
+:root {
+    --container-width: 1366px;
+    --container-padding: 0 72px;
+}
+
+body {
+    background-color: #fff;
+    color: #313131;
+}
+
+.none {
+    display: none !important;
+}
+
+.container {
+    max-width: var(--container-width);
+    padding: var(--container-padding);
+    margin: 0 auto;
+}
+
+.title__text {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+}
+
+.content__text {
+    font-family: 'Golos Text', sans-serif;
+}
+
+.selected-text {
+    color: #F54932;
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
