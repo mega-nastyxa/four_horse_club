@@ -10,3 +10,19 @@
     font-weight: 400;
     line-height: 120%;
 }
+
+.footer__content br {
+    display: none;
+}
+
+/* Медиа запросы */
+
+@media (max-width: 375px) {
+    .footer {
+        height: 214px;
+    }
+
+    .footer__content br {
+        display: block;
+    }
+}
