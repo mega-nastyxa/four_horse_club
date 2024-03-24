@@ -46,3 +46,15 @@
     
        
 }
+
+/* Медиа запросы */
+
+@media (max-width: 375px) {
+    .ticker {
+        height: 38px;
+    }
+    
+    .ticker__item {
+        font-size: 18px;
+    }
+}

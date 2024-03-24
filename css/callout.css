@@ -21,3 +21,41 @@
     height: 250px;
     width: 394px;
 }
+
+.img_mobile {
+    display: none;
+}
+
+/* Медиа запросы */
+
+@media (max-width: 375px) {
+    .callout {
+        height: 748px;
+        padding-top: 48px;
+    }
+
+    .callout__row {
+        flex-direction: column;
+    }
+
+    .callout__content {
+        margin-right: 0;
+        max-width: 335px;
+        font-size: 28px;
+        line-height: 135%;
+    }
+
+    .callout__img {
+        height: 213px;
+        width: 335px;
+    }
+
+    .img_desktop {
+        display: none;
+    }
+
+    .img_mobile {
+        display: block;
+        margin: 24px 0;
+    }
+}
