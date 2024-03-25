@@ -101,6 +101,7 @@ td {
     color: #3057A2;
 }
 
+/* Медиа запросы */
 
 @media (max-width: 375px) {
     .tournament {
